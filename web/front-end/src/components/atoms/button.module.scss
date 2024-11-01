@@ -1,0 +1,23 @@
+button {
+	@apply px-4 py-2 shadow-sm hover:shadow-md transition-shadow duration-150 rounded-lg font-semibold;
+
+	&.success {
+		@apply text-green-500 bg-green-200 shadow-green-100;
+	}
+
+	&.warning {
+		@apply text-amber-500 bg-amber-200 shadow-amber-100;
+	}
+
+	&.danger {
+		@apply text-orange-600 bg-orange-300 shadow-orange-200;
+	}
+
+	&.error {
+		@apply text-red-600 bg-red-200 shadow-red-100;
+	}
+
+	&.info {
+		@apply text-indigo-700 bg-indigo-200 shadow-indigo-100;
+	}
+}
